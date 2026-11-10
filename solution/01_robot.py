@@ -80,8 +80,5 @@ def solve_pansem():
     answer_dx, answer_dy, t = stack[0]
     return answer_dx, answer_dy
 if __name__ == '__main__':
-    try:
-        a_1, a_2 = solve_pansem()
-        print(f'{a_1} {a_2}')
-    except BaseException as e:
-        print(f'пупупу{e}')
+    a_1, a_2 = solve_pansem()
+    print(f'{a_1} {a_2}')
